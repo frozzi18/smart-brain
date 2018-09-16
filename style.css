@@ -1,0 +1,25 @@
+.btn-danger {
+	background-color: blue;
+}
+
+
+
+body  {
+   	height: 0;
+    padding: 0; /* remove any pre-existing padding, just in case */
+    padding-bottom: 65%; /* for a 4:3 aspect ratio */
+    background-image: url(food-background.JPG);
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+  padding-left: 0%;
+  font-size: 40px;
+}
