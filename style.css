@@ -10,7 +10,7 @@ body  {
     padding-bottom: 65%; /* for a 4:3 aspect ratio */
     background-image: url(food-background.JPG);
     background-position: center center;
-    background-size: 100%;
+    background-size: 99%;
     background-repeat: no-repeat;
 }
 
